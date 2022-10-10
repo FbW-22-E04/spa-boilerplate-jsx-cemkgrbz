@@ -1,9 +1,11 @@
 import ReactDOM from "react-dom/client"; //we use ReactDOM to render into the DOM
 
+const name = "James"
+
 // WHAT: This variable returns contains the html to render
 let output = (
 	<span>
-		James is 12 years old
+		{ name } is 12 years old
 	</span>
 );
 
